@@ -17,7 +17,7 @@ spec:
         image: gcr.io/project-1680e564-23e9-4e9c-b2b/ml-project:latest
         ports:
         - containerPort: 5000  # Replace with the port your app listens on
----
+
 apiVersion: v1
 kind: Service
 metadata:
